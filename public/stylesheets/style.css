@@ -25,22 +25,23 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: white;
+  background-color: black;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: rgb(92, 160, 137);
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: black;
 }
 
 button {
-  background-color: #000000;
+  background-color: rgb(92, 160, 137);
   border: 0;
   padding: 1%;
   color: white;
