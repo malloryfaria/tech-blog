@@ -12,7 +12,6 @@
 - [Screenshots](#screenshots)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Description
