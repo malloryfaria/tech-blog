@@ -65,7 +65,7 @@ button:hover {
 textarea, input {
   padding: .5%;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid white;
 }
 
 textarea:focus, input:focus {
@@ -96,7 +96,7 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,11 +131,11 @@ main {
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: #f87171;
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: #99280b;
 }
 
 .post {
@@ -161,10 +161,13 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  background-color: rgb(13, 163, 163);
+  color: black;
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: rgb(165, 223, 203);
+  color: black;
 }
 
 .comment .meta {
@@ -182,7 +185,7 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid white;
   display: flex;
   justify-content: center;
   padding: 1%;
