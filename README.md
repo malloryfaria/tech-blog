@@ -37,17 +37,17 @@ DB_NAME='tech_blog_db'
 DB_USER='root'
 DB_PW='examplepassword'
 
-// From the db folder, login to your MySQL using:
+// From the root folder, login to your MySQL using:
 mysql -u root -p
 
 // Then, run this command to create the database:
-source schema.sql;
+source db/schema.sql;
 
 // Then quit the MySQL shell by typing
 quit;
 
 // Seed the test data into the database by typing:
-npm run seed
+npm run seeds
 
 // Then use the below command to start the server:
 npm start
