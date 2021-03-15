@@ -10,13 +10,14 @@
 - [Deployed](#deployed)
 - [Languages](#languages)
 - [Screenshots](#screenshots)
-- [Demo](#demo)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 
 ## Description
+
+You can see the site in action here: https://mallory-tech-blog.herokuapp.com/
 
 A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well. This app uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
@@ -53,21 +54,24 @@ npm run seeds
 npm start
 
 ```
-
 ## Usage
 Use this application to build on the front end for an e-commerce site to this back end.
 
 ## Deployed application link
 https://github.com/malloryfaria/tech-blog
 
-## Demo
-https://youtu.be/example
-
 ## Languages/Technology Used
 Node, Express.js API, Sequelize, MySQL2, Handlebars.js, Express-session, bcrypt, dotenv
 
 ## Screenshots
-![example](./assets/images/screenshot.jpg?raw=true) <br /><br />
+
+### Homepage:
+![homepage](./public/images/screenshot2.jpg?raw=true) <br /><br />
+### Creating a new post:
+![creating a post](./public/images/screenshot.jpg?raw=true) <br /><br />
+
+### Editing a post:
+![editing a post](./public/images/screenshot3.jpg?raw=true) <br /><br />
 
 ## License
 
