@@ -9,8 +9,8 @@ router.get('/', (req, res) => {
   Post.findAll({
     attributes: [
       'id',
-      'post_text',
       'title',
+      'text',
       'created_at'
     ],
     include: [
@@ -42,8 +42,8 @@ router.get('/:id', (req, res) => {
     },
     attributes: [
       'id',
-      'post_text',
       'title',
+      'text',
       'created_at'
     ],
     include: [
@@ -78,7 +78,7 @@ router.post('/', withAuth, (req, res) => {
   // expects {title: 'Taskmaster goes public!', post_text: 'example text', user_id: 1}
   Post.create({
     title: req.body.title,
-    post_text: req.body.post_text,
+    text: req.body.text,
     user_id: req.session.user_id
   })
     .then(dbPostData => res.json(dbPostData))
@@ -92,7 +92,7 @@ router.put('/:id', withAuth, (req, res) => {
   Post.update(
     {
       title: req.body.title,
-      post_text: req.body.post_text
+      text: req.body.text
     },
     {
       where: {
